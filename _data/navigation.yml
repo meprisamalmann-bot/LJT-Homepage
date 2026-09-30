@@ -1,33 +1,52 @@
-# The following is the order of the links in the header of the website.
-#
-# Changing the order here will adjust the order and you can also add additional
-# links. Removing a link prevents it from showing in the header, but does not
-# prevent it from being included in the site.
-#
-# NOTE that only one of the CV options should be selected, the first is for the
-#      Markdown formatted page while the second is generated using JSON.
+# The Footer has two collections:
+#     1. Navigation
+#     2. Links
 
+# => This is the navigation content in the footer
+# 1. About (Long Bio)
+# 2. Collection Archive (Shows all the collections with a description)
+# 3. Categories (List all the categories)
+# 4. Tags (List all the tags)
+# 5. Posts (To the Post Collections)
+# 6. Projects (To the Project Collections)
+# 7. Collections (To the collection that don't have a page on the navigation)
+#    Examples:
+#      - Talks
+#      - Teaching
+#      - Portfolio
+#      - etc.
+
+# => The Navigation's content
 main:
+  - title: "About"
+    url: /
   - title: "Publications"
     url: /publications/
 
-  - title: "Talks"
-    url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Portfolio"
-    url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
-    
-  - title: "CV"
-    url: /cv/
-    
-  # - title: "CV"
-  #   url: /cv-json/
-    
-  - title: "Guide"
-    url: /markdown/
+# => These are the links that go into the navigation
+# 1. Google
+# 2. Twitter
+# 3. Facebook
+# 4. Instagram
+# 5. LinkedIn
+# 6. Github
+# 7. Gitlab
+# 8. Bitbucket
+# 9. Steam
+# 10. Twitch
+# 11. Youtuble
+# 12. Bitcointalk
+# 13. E-bay
+# 14. Slack
+# 15. Discord
+# 16. Tumblr
+# 17. Foursquare
+# 18. Pinterest
+# 19. Kickstarter
+# 20. Vine
+# 21. Xing
+# 22. ResearchGate
+# 23. Dribbble
+# 24. Flicker
+# 25. Keybase
+# 26. RSS feed
